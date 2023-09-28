@@ -1,0 +1,84 @@
+/* Lägger bild i body.
+cover gör att bilden fyller elementet */
+/* tar bort höjd, bredd */
+body
+{
+background-image: url("./dogimg.jpg");
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-size: cover; 
+}
+
+/*header*/
+h1
+{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+/*Sätter input och knapp till höjd 40px*/
+input, button
+{
+    height: 40px;
+}
+
+/*inloggnings ruta input*/
+#container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20%;
+}
+
+/*föreningsregler*/
+#regler
+{
+display: inline-flex;
+align-items: center;
+margin-left: 45%;
+margin-top: 20px;
+flex-direction: column;
+color: whitesmoke;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .5);
+border-radius: 5px;
+backdrop-filter: blur(20px);
+box-shadow: 0 0 30px rgba(0, 0,0, .5) ;
+}
+
+/*text för välkommen*/
+#text
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -19%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+color: #BA704F;
+
+}
+
+/*knapp logga ut*/
+#logOutBtn
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+
+legend
+{
+    color: whitesmoke;
+}
+
